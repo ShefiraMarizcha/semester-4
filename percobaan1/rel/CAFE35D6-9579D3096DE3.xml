@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="CAFE35D6-CF44-E1C2-BA99-9579D3096DE3" mainViewID="A79BA184-E8B2-E933-1542-A569528E7926">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-02-25 14:31:26 UTC</createdTime>
+<ownerDesignName>percobaan1</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>
