@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D5F5E154-30EC-C012-4BF4-EA31056C94F1" name="ORDER">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-06-07 16:22:45 UTC</createdTime>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<engineerTo>
+<item key="124C7D2C-15F7-00E1-F895-B7269B709646" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="_Order_Id" id="64BD47A8-5A43-AA78-6507-0CD3CC6C27A0">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-06-07 16:37:09 UTC</createdTime>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<engineerTo>
+<item key="124C7D2C-15F7-00E1-F895-B7269B709646" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Customer_Id" id="2C897FB5-7CF0-70AB-A867-A076FE3A54FF">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-06-07 16:37:39 UTC</createdTime>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<engineerTo>
+<item key="124C7D2C-15F7-00E1-F895-B7269B709646" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Order_Date" id="2AC635FB-8E61-CAAB-FEE4-6D53D8D3ED8C">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-06-07 16:41:39 UTC</createdTime>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<engineerTo>
+<item key="124C7D2C-15F7-00E1-F895-B7269B709646" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Total_Amount" id="BBC97951-FE15-CEBA-EECF-6FD78A0AB504">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-06-07 16:42:49 UTC</createdTime>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<engineerTo>
+<item key="124C7D2C-15F7-00E1-F895-B7269B709646" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Final_Amount" id="6CC0F3D8-FF82-740F-0900-979387ACA1F4">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-06-07 16:43:19 UTC</createdTime>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<engineerTo>
+<item key="124C7D2C-15F7-00E1-F895-B7269B709646" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Discount_Id" id="84313F2D-0B75-7BE8-5AB4-635B33A7E7FC">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-06-07 16:42:09 UTC</createdTime>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<engineerTo>
+<item key="124C7D2C-15F7-00E1-F895-B7269B709646" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sales_Rep_Id" id="A252EC5D-4CC6-3737-A823-03A01BD05263">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-06-07 16:42:28 UTC</createdTime>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<engineerTo>
+<item key="124C7D2C-15F7-00E1-F895-B7269B709646" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Discount" id="4516072C-168A-8A88-3401-A214A833E1C0">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-06-07 16:43:10 UTC</createdTime>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<engineerTo>
+<item key="124C7D2C-15F7-00E1-F895-B7269B709646" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FA6738EA-C975-D3D3-C1B5-4FD4B2FD2E7B" name="ORDER PK">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-06-14 18:38:24 UTC</createdTime>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<engineerTo>
+<item key="124C7D2C-15F7-00E1-F895-B7269B709646" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>64BD47A8-5A43-AA78-6507-0CD3CC6C27A0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

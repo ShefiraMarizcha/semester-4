@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A1A39AD3-D913-2534-0D58-F42CF56AE7A2" name="SALES_REPRESENT">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-06-07 16:23:03 UTC</createdTime>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<engineerTo>
+<item key="124C7D2C-15F7-00E1-F895-B7269B709646" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Sales_Rep_Id" id="41C1EA44-D785-7BFC-AA7A-E8A08AA9FA46">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-06-07 16:51:37 UTC</createdTime>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<engineerTo>
+<item key="124C7D2C-15F7-00E1-F895-B7269B709646" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name_Rep" id="EE5CA795-86A8-650E-E15E-11C27A2BA7B5">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-06-07 16:51:58 UTC</createdTime>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<engineerTo>
+<item key="124C7D2C-15F7-00E1-F895-B7269B709646" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Phone_Rep" id="60A154D4-05A2-0C7F-57DD-E4314DB4786F">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-06-07 16:52:08 UTC</createdTime>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<engineerTo>
+<item key="124C7D2C-15F7-00E1-F895-B7269B709646" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email_Rep" id="4D2A26BB-BFB7-0804-419A-9DB27099017A">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-06-07 16:52:17 UTC</createdTime>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<engineerTo>
+<item key="124C7D2C-15F7-00E1-F895-B7269B709646" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A9024510-CCE1-9FBE-F1ED-E7D1ECA10AE6" name="SALES_REPRESENT PK">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-06-14 18:40:40 UTC</createdTime>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<engineerTo>
+<item key="124C7D2C-15F7-00E1-F895-B7269B709646" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>41C1EA44-D785-7BFC-AA7A-E8A08AA9FA46</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

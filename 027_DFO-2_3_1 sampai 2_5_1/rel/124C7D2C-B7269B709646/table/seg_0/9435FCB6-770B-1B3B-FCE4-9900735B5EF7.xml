@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9435FCB6-770B-1B3B-FCE4-9900735B5EF7" name="INVENTORY_ITEM">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-07-26 13:34:14 UTC</createdTime>
+<generatorID>151247C1-B4F9-BDB4-053E-501F4A5FAFA8</generatorID>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Item_Id" id="77FFB263-0564-2F32-7F46-8D7109EA854F">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-07-26 13:34:14 UTC</createdTime>
+<generatorID>27AF0E13-E11A-EFAC-C2EA-F7D7E20B67BB</generatorID>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Item_Name" id="285E4F17-4558-8574-8503-8F2FA4B22573">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-07-26 13:34:14 UTC</createdTime>
+<generatorID>13CC8543-B55E-01A1-684E-E7A8EC966E77</generatorID>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Item_Type" id="994F2098-CE63-08AA-4429-6A765968D708">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-07-26 13:34:14 UTC</createdTime>
+<generatorID>2B6B4AAC-C9AF-99E8-6619-0A4D670B0CEF</generatorID>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Item_Price" id="6A3F6765-8A09-375A-914F-F8B51455F842">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-07-26 13:34:14 UTC</createdTime>
+<generatorID>C5BF5BF5-BBF1-6AD5-3049-FFC2D5AD3B45</generatorID>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stock_Level" id="36508BE3-5027-2DCA-1261-77732F11DBEC">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-07-26 13:34:14 UTC</createdTime>
+<generatorID>D40C7CF8-9337-0729-8796-8188586AF1A0</generatorID>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEAM__Team_Id" id="CA9F3B26-8188-9F14-8D8D-5DE2231A6283">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-07-26 13:34:14 UTC</createdTime>
+<generatorID>AD2D5A9B-41AD-7E49-54A8-7142D4B23449</generatorID>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A3AE3BE3-6EB9-10D1-B1E0-5945F08A7983" referredColumn="99199265-8D6B-9147-DAA2-2F7FBE8B7EA0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B8CB7BA5-7C2C-773F-7815-D728CFA96719" name="INVENTORY_ITEM_PK">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-07-26 13:34:14 UTC</createdTime>
+<generatorID>CD1C9ED5-49FA-21A9-66A0-347C37078693</generatorID>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="B024E001-279C-1FA1-42A0-0FB2BF5EF4B4" name="INVENTORY_ITEM__IDX">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-07-26 13:34:14 UTC</createdTime>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>4916BC91-70A3-8D30-6D9E-7DCAADB08C63</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="CA9F3B26-8188-9F14-8D8D-5DE2231A6283"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="000845C8-C3FD-9353-E538-54B3AF482DC5" name="INVENTORY_ITEM_TEAM_FK">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-07-26 13:34:14 UTC</createdTime>
+<generatorID>4916BC91-70A3-8D30-6D9E-7DCAADB08C63</generatorID>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA9F3B26-8188-9F14-8D8D-5DE2231A6283"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

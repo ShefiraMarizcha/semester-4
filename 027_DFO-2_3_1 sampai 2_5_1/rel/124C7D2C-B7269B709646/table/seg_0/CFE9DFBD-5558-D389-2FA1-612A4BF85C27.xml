@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CFE9DFBD-5558-D389-2FA1-612A4BF85C27" name="TEAM">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-07-26 13:34:14 UTC</createdTime>
+<generatorID>9CC4870A-A127-6867-1C90-33CB4945F331</generatorID>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="_Team_Id" id="99199265-8D6B-9147-DAA2-2F7FBE8B7EA0">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-07-26 13:34:14 UTC</createdTime>
+<generatorID>810F9AAF-716F-0FC3-88B8-7A99EA865ACA</generatorID>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Customer_Id" id="27AA8FB1-5DD8-04E6-0962-4210F85E9947">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-07-26 13:34:14 UTC</createdTime>
+<generatorID>2B6FD7D9-9366-B96F-F269-9C885796D524</generatorID>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Team_Name" id="729EB811-288F-FF95-CCAC-C7752B9F1B1F">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-07-26 13:34:14 UTC</createdTime>
+<generatorID>734B1D17-8B47-E7CA-3891-C37BB4227182</generatorID>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Number_Player" id="F53CA7ED-FED9-9898-8856-9B7F3CE67EED">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-07-26 13:34:14 UTC</createdTime>
+<generatorID>21E250B1-3427-EC90-C283-95079BAEC6DD</generatorID>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Coach_Name" id="C5755BEA-6421-FE7D-3F9A-54AC8562F031">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-07-26 13:34:14 UTC</createdTime>
+<generatorID>5F3EE68B-3A9E-D248-7207-0BF0C8F28219</generatorID>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALES_REPRESENT_Sales_Rep_Id" id="8EA923EF-30B0-EDC8-D409-B0C0400A799F">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-07-26 13:34:14 UTC</createdTime>
+<generatorID>CE84AC5B-E1B0-F948-E1B2-7DE01F72076B</generatorID>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BCF05BE5-0EC9-A24D-9CE4-2D1204E157F6" referredColumn="1B73F558-F9A7-FF87-A800-B499AA7A816A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B0265303-DA58-A323-EE70-D6C439821049" name="TEAM_PK">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-07-26 13:34:14 UTC</createdTime>
+<generatorID>A895462B-2331-57A0-3C63-CA9C5826CA9F</generatorID>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99199265-8D6B-9147-DAA2-2F7FBE8B7EA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="915EFF33-28B7-177F-BAD7-97382845ED51" name="TEAM_CUSTOMER_FK">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-07-26 13:34:14 UTC</createdTime>
+<generatorID>123BFCB5-5D61-A745-8437-4A17A36AEED9</generatorID>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="42D78BBB-FA20-F2F8-7BC1-B038DF9A5E01" name="TEAM_SALES_REPRESENT_FK">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-07-26 13:34:14 UTC</createdTime>
+<generatorID>27AAF955-F107-97C4-A332-61005A7DD15A</generatorID>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8EA923EF-30B0-EDC8-D409-B0C0400A799F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

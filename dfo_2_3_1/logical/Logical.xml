@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="BD6BE80E-AC11-3AEB-2CA3-2A9DC650C6A4" mainViewID="6E611AF7-55EE-7F79-28C3-BD2831097DD4">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-06-07 10:08:57 UTC</createdTime>
+<ownerDesignName>dfo_2_3_1</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BE9BB43D-939B-CBE2-195C-3A28695BDFE8" name="SALES_REPRESENT">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-07-26 13:34:14 UTC</createdTime>
+<generatorID>A1A39AD3-D913-2534-0D58-F42CF56AE7A2</generatorID>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Sales_Rep_Id" id="1B73F558-F9A7-FF87-A800-B499AA7A816A">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-07-26 13:34:14 UTC</createdTime>
+<generatorID>41C1EA44-D785-7BFC-AA7A-E8A08AA9FA46</generatorID>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name_Rep" id="A0E33643-2F94-6B72-058A-77CDE7565D54">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-07-26 13:34:14 UTC</createdTime>
+<generatorID>EE5CA795-86A8-650E-E15E-11C27A2BA7B5</generatorID>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Phone_Rep" id="791860E4-BDE2-B932-8E76-388FE13703AC">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-07-26 13:34:14 UTC</createdTime>
+<generatorID>60A154D4-05A2-0C7F-57DD-E4314DB4786F</generatorID>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email_Rep" id="16B11E64-BF74-40A4-AF5B-6298E04B1C22">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-07-26 13:34:14 UTC</createdTime>
+<generatorID>4D2A26BB-BFB7-0804-419A-9DB27099017A</generatorID>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9821F115-B4CE-B2F4-A955-4F8CBF3A3414" name="SALES_REPRESENT_PK">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-07-26 13:34:14 UTC</createdTime>
+<generatorID>A9024510-CCE1-9FBE-F1ED-E7D1ECA10AE6</generatorID>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B73F558-F9A7-FF87-A800-B499AA7A816A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

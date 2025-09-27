@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A302BDC6-C9F3-6C03-7106-7CAB3BD5F141" name="ORDER">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-07-26 13:34:14 UTC</createdTime>
+<generatorID>D5F5E154-30EC-C012-4BF4-EA31056C94F1</generatorID>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="_Order_Id" id="BC52E3CA-74B9-114E-E68E-7F2D57CA06DE">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-07-26 13:34:14 UTC</createdTime>
+<generatorID>64BD47A8-5A43-AA78-6507-0CD3CC6C27A0</generatorID>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Customer_Id" id="7007E467-3257-DA05-65F8-46E4A091AB5C">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-07-26 13:34:14 UTC</createdTime>
+<generatorID>2C897FB5-7CF0-70AB-A867-A076FE3A54FF</generatorID>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Order_Date" id="7F8A7C51-1E39-5EF0-263A-EAD1B7CA232E">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-07-26 13:34:14 UTC</createdTime>
+<generatorID>2AC635FB-8E61-CAAB-FEE4-6D53D8D3ED8C</generatorID>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Total_Amount" id="498AF598-8622-2F45-B0E9-5ADDA9E18D89">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-07-26 13:34:14 UTC</createdTime>
+<generatorID>BBC97951-FE15-CEBA-EECF-6FD78A0AB504</generatorID>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Final_Amount" id="9BBBB2D5-607D-DE3B-ACCF-9A6805FA9FDA">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-07-26 13:34:14 UTC</createdTime>
+<generatorID>6CC0F3D8-FF82-740F-0900-979387ACA1F4</generatorID>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Discount_Id" id="3E68992E-5E68-E859-AC9F-A302B4EA29FF">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-07-26 13:34:14 UTC</createdTime>
+<generatorID>84313F2D-0B75-7BE8-5AB4-635B33A7E7FC</generatorID>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sales_Rep_Id" id="AD0F50CB-D812-0604-6F24-C4BA5F7702F7">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-07-26 13:34:14 UTC</createdTime>
+<generatorID>A252EC5D-4CC6-3737-A823-03A01BD05263</generatorID>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Discount" id="E02A49C3-B1C0-6D40-AA97-6CEC679CD725">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-07-26 13:34:14 UTC</createdTime>
+<generatorID>4516072C-168A-8A88-3401-A214A833E1C0</generatorID>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CD006B40-03BC-89DC-E69C-4FF61F838E30" name="ORDER_PK">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-07-26 13:34:14 UTC</createdTime>
+<generatorID>FA6738EA-C975-D3D3-C1B5-4FD4B2FD2E7B</generatorID>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC52E3CA-74B9-114E-E68E-7F2D57CA06DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC733286-E610-2EF4-7E49-DE186B0937C8" name="ORDER_CUSTOMER_FK">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-07-26 13:34:14 UTC</createdTime>
+<generatorID>6730F160-F862-DB8C-340C-BC5584308270</generatorID>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

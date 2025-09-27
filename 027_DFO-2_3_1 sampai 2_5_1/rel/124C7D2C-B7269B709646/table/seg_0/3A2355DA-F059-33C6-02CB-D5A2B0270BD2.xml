@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3A2355DA-F059-33C6-02CB-D5A2B0270BD2" name="ORDER_ITEM">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-07-26 13:34:14 UTC</createdTime>
+<generatorID>AF201ABD-26AF-1B56-B8CA-9AEC01978543</generatorID>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Order_Item_Id" id="5539A4E2-DF62-0F93-05E3-073D1ED1A586">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-07-26 13:34:14 UTC</createdTime>
+<generatorID>B4926959-9A99-43A7-AFD2-6F14DECA224C</generatorID>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Order_Id" id="366480DB-99F7-3DBC-0C0B-671BED4FEA54">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-07-26 13:34:14 UTC</createdTime>
+<generatorID>7A8B9EDF-A694-8CEC-5690-D4F68A08E487</generatorID>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Item_Id" id="BD0CC4FF-8853-6501-9E8C-E111842CEEBE">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-07-26 13:34:14 UTC</createdTime>
+<generatorID>09FBA7F3-1E92-D069-039B-837281799EDF</generatorID>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Quantity" id="1198ED8C-5C3A-4900-1CC9-AD2D073BE8DA">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-07-26 13:34:14 UTC</createdTime>
+<generatorID>5EFFA5F0-0740-C205-6CDE-BA52BF2154D0</generatorID>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Item_Price" id="BB2CEB39-547C-5115-55AE-6E33E4C2FE27">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-07-26 13:34:14 UTC</createdTime>
+<generatorID>600026B6-8398-42C0-228B-F62AF93BD4C5</generatorID>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Total_Price" id="63FFA534-C336-DBC4-E796-5E2D26AAAFCD">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-07-26 13:34:14 UTC</createdTime>
+<generatorID>D7F2D18F-F799-56D5-7170-FBA2756F2803</generatorID>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDER__Order_Id" id="C3E1B0A9-1643-376E-61A9-482761601894">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-07-26 13:34:14 UTC</createdTime>
+<generatorID>05BBE6ED-D01C-3DD2-40BC-777D54D965A4</generatorID>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CA4EBDA8-0BE6-2441-64CF-9791F17DE3D1" referredColumn="BC52E3CA-74B9-114E-E68E-7F2D57CA06DE"/>
+</associations>
+</Column>
+<Column name="TEAM__Team_Id" id="525A7F75-DAA6-C247-83BF-599CFF5A23C6">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-07-26 13:34:14 UTC</createdTime>
+<generatorID>C97964F8-15F9-BD1E-54CF-429AF52EBC07</generatorID>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="160C29A4-D193-EFD2-66CE-AB83E7113298" referredColumn="99199265-8D6B-9147-DAA2-2F7FBE8B7EA0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6724693C-1D25-E227-C304-B5726C7F5937" name="ORDER_ITEM_PK">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-07-26 13:34:14 UTC</createdTime>
+<generatorID>08CCAEC2-E72B-C052-AD5A-8F0D17A8D541</generatorID>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5539A4E2-DF62-0F93-05E3-073D1ED1A586"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3B498AE-892B-9C0C-AA9B-AE1EF6B07BCD" name="ORDER_ITEM_ORDER_FK">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-07-26 13:34:14 UTC</createdTime>
+<generatorID>CFD85F0E-9B6E-0A3A-EA27-65B56D228A91</generatorID>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3E1B0A9-1643-376E-61A9-482761601894"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3FD67A29-21DE-DAEA-066A-711EFED07928" name="ORDER_ITEM_TEAM_FK">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-07-26 13:34:14 UTC</createdTime>
+<generatorID>A0487951-4EA0-C238-AAF5-4C9C1995867B</generatorID>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="525A7F75-DAA6-C247-83BF-599CFF5A23C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

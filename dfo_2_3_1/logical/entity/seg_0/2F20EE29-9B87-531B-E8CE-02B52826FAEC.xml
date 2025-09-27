@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2F20EE29-9B87-531B-E8CE-02B52826FAEC" name="CUSTOMER">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-06-07 10:12:29 UTC</createdTime>
+<ownerDesignName>dfo_2_3_1</ownerDesignName>
+<engineerTo>
+<item key="5F2CD04C-8D4A-2F50-0D46-D64FE477A2CD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="customer_id" id="667D00EA-451F-5110-F81C-527932C6252C">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-06-07 10:12:41 UTC</createdTime>
+<ownerDesignName>dfo_2_3_1</ownerDesignName>
+<engineerTo>
+<item key="5F2CD04C-8D4A-2F50-0D46-D64FE477A2CD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="customer_type" id="D1D57075-08ED-173E-4887-3D25BCB92F0D">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-06-07 10:13:19 UTC</createdTime>
+<ownerDesignName>dfo_2_3_1</ownerDesignName>
+<engineerTo>
+<item key="5F2CD04C-8D4A-2F50-0D46-D64FE477A2CD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="450A6F31-1CAC-579B-BE8F-46DD198EA3F0">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-06-07 10:13:51 UTC</createdTime>
+<ownerDesignName>dfo_2_3_1</ownerDesignName>
+<engineerTo>
+<item key="5F2CD04C-8D4A-2F50-0D46-D64FE477A2CD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="address" id="9225C073-2B57-4C83-964D-EBE98E75C843">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-06-07 10:14:12 UTC</createdTime>
+<ownerDesignName>dfo_2_3_1</ownerDesignName>
+<engineerTo>
+<item key="5F2CD04C-8D4A-2F50-0D46-D64FE477A2CD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="phone" id="3072300D-4848-CF7C-53E1-7F88C08BA8DB">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-06-07 10:14:31 UTC</createdTime>
+<ownerDesignName>dfo_2_3_1</ownerDesignName>
+<engineerTo>
+<item key="5F2CD04C-8D4A-2F50-0D46-D64FE477A2CD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,13,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="7C2E95CE-03FE-48BD-566B-B00C637B0592">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-06-07 10:15:36 UTC</createdTime>
+<ownerDesignName>dfo_2_3_1</ownerDesignName>
+<engineerTo>
+<item key="5F2CD04C-8D4A-2F50-0D46-D64FE477A2CD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EE07CD71-E548-97E0-E810-644B78EDFC32" name="CUSTOMER PK">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-06-07 10:13:45 UTC</createdTime>
+<ownerDesignName>dfo_2_3_1</ownerDesignName>
+<engineerTo>
+<item key="5F2CD04C-8D4A-2F50-0D46-D64FE477A2CD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>667D00EA-451F-5110-F81C-527932C6252C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

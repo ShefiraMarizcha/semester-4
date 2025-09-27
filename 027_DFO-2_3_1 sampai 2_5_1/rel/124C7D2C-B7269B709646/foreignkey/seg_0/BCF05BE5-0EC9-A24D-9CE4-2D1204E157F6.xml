@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BCF05BE5-0EC9-A24D-9CE4-2D1204E157F6" containerWithKeyObject="CFE9DFBD-5558-D389-2FA1-612A4BF85C27" localFKIndex="42D78BBB-FA20-F2F8-7BC1-B038DF9A5E01" name="TEAM_SALES_REPRESENT_FK">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-07-26 13:34:14 UTC</createdTime>
+<generatorID>27AAF955-F107-97C4-A332-61005A7DD15A</generatorID>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<referredTableLongName>SALES_REPRESENT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BE9BB43D-939B-CBE2-195C-3A28695BDFE8</referredTableID>
+<keyObject>9821F115-B4CE-B2F4-A955-4F8CBF3A3414</keyObject>
+<referredKeyID>9821F115-B4CE-B2F4-A955-4F8CBF3A3414</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>Sales_Rep_Id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

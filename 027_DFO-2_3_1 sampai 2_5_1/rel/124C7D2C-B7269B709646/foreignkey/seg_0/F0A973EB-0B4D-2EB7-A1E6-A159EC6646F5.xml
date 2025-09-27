@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F0A973EB-0B4D-2EB7-A1E6-A159EC6646F5" containerWithKeyObject="CFE9DFBD-5558-D389-2FA1-612A4BF85C27" localFKIndex="915EFF33-28B7-177F-BAD7-97382845ED51" name="TEAM_CUSTOMER_FK">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-07-26 13:34:14 UTC</createdTime>
+<generatorID>123BFCB5-5D61-A745-8437-4A17A36AEED9</generatorID>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<referredTableLongName>CUSTOMER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A6BD7796-C50F-1585-F81A-0FFF3876ED4D</referredTableID>
+<keyObject>1A839680-8A3F-F1EB-2EEE-247FBC721E1D</keyObject>
+<referredKeyID>1A839680-8A3F-F1EB-2EEE-247FBC721E1D</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

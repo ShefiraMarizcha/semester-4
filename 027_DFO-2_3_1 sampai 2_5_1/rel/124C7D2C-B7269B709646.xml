@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="124C7D2C-15F7-00E1-F895-B7269B709646" mainViewID="B0607191-4B7E-7A13-EE95-5CAD5B3BE820">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-06-07 16:22:23 UTC</createdTime>
+<ownerDesignName>Dfo_basdat laporan_fiks</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

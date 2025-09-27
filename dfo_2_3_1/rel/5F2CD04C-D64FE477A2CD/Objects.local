@@ -1,0 +1,5 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="4056294D-26FC-5B01-B3BC-096D1DD2D590" name="CUSTOMER" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="5F2CD04C-8D4A-2F50-0D46-D64FE477A2CD" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="EC503199-1755-780C-8CA4-AAAC2DFF33BE" name="TEAM" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="5F2CD04C-8D4A-2F50-0D46-D64FE477A2CD" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

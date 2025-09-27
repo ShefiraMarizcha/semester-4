@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="192093F1-8D54-C166-DD09-092DFB7C0650" name="CUSTOMER">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-06-07 16:23:15 UTC</createdTime>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<engineerTo>
+<item key="124C7D2C-15F7-00E1-F895-B7269B709646" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="_Customer_Id" id="7CC0148D-13D0-90AF-DE3C-F58CAE3A22DD">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-06-07 16:44:44 UTC</createdTime>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<engineerTo>
+<item key="124C7D2C-15F7-00E1-F895-B7269B709646" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Customer_Type" id="01E36F8C-C917-C6C2-5D22-0BED834882D6">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-06-07 16:44:55 UTC</createdTime>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<engineerTo>
+<item key="124C7D2C-15F7-00E1-F895-B7269B709646" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Customer_Name" id="76E49E02-5919-C245-BD9E-751A72A9B0D0">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-06-07 16:45:10 UTC</createdTime>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<engineerTo>
+<item key="124C7D2C-15F7-00E1-F895-B7269B709646" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Customer_Address" id="8CBFD7C8-3502-67DB-B396-023C1DBA2268">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-06-07 16:45:25 UTC</createdTime>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<engineerTo>
+<item key="124C7D2C-15F7-00E1-F895-B7269B709646" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Customer_Phone" id="63D9EB5F-251F-21D7-1B3B-956A377ADDD5">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-06-07 16:45:37 UTC</createdTime>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<engineerTo>
+<item key="124C7D2C-15F7-00E1-F895-B7269B709646" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Customer_Email" id="D6AF435F-2CC8-D8B4-D29A-0E4F64107B0A">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-06-07 16:45:53 UTC</createdTime>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<engineerTo>
+<item key="124C7D2C-15F7-00E1-F895-B7269B709646" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sales_Rep_Id" id="70B85DB2-FE6D-C33F-2E18-57AA6CD234B7">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-06-15 04:48:09 UTC</createdTime>
+<generatorID>8D82B43E-375C-FDFF-B80F-D80F63877A27</generatorID>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<engineerTo>
+<item key="124C7D2C-15F7-00E1-F895-B7269B709646" value="true"/>
+</engineerTo>
+<referedAttribute>41C1EA44-D785-7BFC-AA7A-E8A08AA9FA46</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="38C023EC-9733-D65F-3855-87AA15D53639" name="CUSTOMER PK">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-06-07 17:07:37 UTC</createdTime>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<engineerTo>
+<item key="124C7D2C-15F7-00E1-F895-B7269B709646" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

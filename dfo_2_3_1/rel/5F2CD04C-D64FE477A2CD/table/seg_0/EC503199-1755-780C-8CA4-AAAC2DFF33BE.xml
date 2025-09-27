@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EC503199-1755-780C-8CA4-AAAC2DFF33BE" name="TEAM">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-06-07 10:17:12 UTC</createdTime>
+<generatorID>382E47A3-9F3E-0619-D876-CF818C8B0120</generatorID>
+<ownerDesignName>dfo_2_3_1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="team_id" id="54BB9786-6501-C2D1-6EAD-B74987ACF618">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-06-07 10:17:12 UTC</createdTime>
+<generatorID>DA095F8C-F954-52B9-89FB-E3D383E4ACA8</generatorID>
+<ownerDesignName>dfo_2_3_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="team_name" id="FE4B0AA4-5AF7-AC7F-5807-349B09F93AEC">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-06-07 10:17:12 UTC</createdTime>
+<generatorID>1792DA47-7FFD-64B3-B800-2F24EE7C05EB</generatorID>
+<ownerDesignName>dfo_2_3_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E6C45E07-32F2-C2B2-74DB-01CC6105F1AF" name="TEAM_PK">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-06-07 10:17:12 UTC</createdTime>
+<generatorID>E0F1E674-9B9B-8B41-CBFB-38547CDBD702</generatorID>
+<ownerDesignName>dfo_2_3_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54BB9786-6501-C2D1-6EAD-B74987ACF618"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

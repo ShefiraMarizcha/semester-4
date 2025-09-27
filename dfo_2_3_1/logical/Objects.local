@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="2F20EE29-9B87-531B-E8CE-02B52826FAEC" name="CUSTOMER" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="BD6BE80E-AC11-3AEB-2CA3-2A9DC650C6A4" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="7F65D6DE-37FB-B8E2-67BD-6D6447457D59" name="Order" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="BD6BE80E-AC11-3AEB-2CA3-2A9DC650C6A4" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="C565F42E-4F7F-DACE-DF6E-54112EAE7041" name="Sales_Representative" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="BD6BE80E-AC11-3AEB-2CA3-2A9DC650C6A4" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="382E47A3-9F3E-0619-D876-CF818C8B0120" name="TEAM" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="BD6BE80E-AC11-3AEB-2CA3-2A9DC650C6A4" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C565F42E-4F7F-DACE-DF6E-54112EAE7041" name="Sales_Representative">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-06-07 10:19:05 UTC</createdTime>
+<ownerDesignName>dfo_2_3_1</ownerDesignName>
+<engineerTo>
+<item key="5F2CD04C-8D4A-2F50-0D46-D64FE477A2CD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Rep_id" id="1753DE56-0B87-306F-F6CC-2C7859BA4558">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-06-07 10:22:05 UTC</createdTime>
+<ownerDesignName>dfo_2_3_1</ownerDesignName>
+<engineerTo>
+<item key="5F2CD04C-8D4A-2F50-0D46-D64FE477A2CD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="0C0C5576-1921-4CAA-E663-60D0A3EA572A">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-06-07 10:22:22 UTC</createdTime>
+<ownerDesignName>dfo_2_3_1</ownerDesignName>
+<engineerTo>
+<item key="5F2CD04C-8D4A-2F50-0D46-D64FE477A2CD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Assigned_teams" id="550A6E15-E339-04CB-B654-C27E626E9919">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-06-07 10:22:38 UTC</createdTime>
+<ownerDesignName>dfo_2_3_1</ownerDesignName>
+<engineerTo>
+<item key="5F2CD04C-8D4A-2F50-0D46-D64FE477A2CD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Phone" id="7D693C8B-324E-860C-5FA3-89262F600A1F">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-06-07 10:23:01 UTC</createdTime>
+<ownerDesignName>dfo_2_3_1</ownerDesignName>
+<engineerTo>
+<item key="5F2CD04C-8D4A-2F50-0D46-D64FE477A2CD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,13,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="119A54AC-54E8-89B6-5F13-C37AF9B1660D">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-06-07 10:23:23 UTC</createdTime>
+<ownerDesignName>dfo_2_3_1</ownerDesignName>
+<engineerTo>
+<item key="5F2CD04C-8D4A-2F50-0D46-D64FE477A2CD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B01A71B6-BCA8-34AE-3C2E-540ADC332CCA" name="Sales_Representative PK">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-06-07 10:22:20 UTC</createdTime>
+<ownerDesignName>dfo_2_3_1</ownerDesignName>
+<engineerTo>
+<item key="5F2CD04C-8D4A-2F50-0D46-D64FE477A2CD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1753DE56-0B87-306F-F6CC-2C7859BA4558</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

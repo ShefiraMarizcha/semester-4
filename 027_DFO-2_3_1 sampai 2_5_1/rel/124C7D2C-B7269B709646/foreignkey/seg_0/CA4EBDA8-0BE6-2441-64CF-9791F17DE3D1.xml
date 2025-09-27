@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CA4EBDA8-0BE6-2441-64CF-9791F17DE3D1" containerWithKeyObject="3A2355DA-F059-33C6-02CB-D5A2B0270BD2" localFKIndex="B3B498AE-892B-9C0C-AA9B-AE1EF6B07BCD" name="ORDER_ITEM_ORDER_FK">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-07-26 13:34:14 UTC</createdTime>
+<generatorID>CFD85F0E-9B6E-0A3A-EA27-65B56D228A91</generatorID>
+<ownerDesignName>027_DFO-2_3_1 sampai 2_5_1</ownerDesignName>
+<referredTableLongName>ORDER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A302BDC6-C9F3-6C03-7106-7CAB3BD5F141</referredTableID>
+<keyObject>CD006B40-03BC-89DC-E69C-4FF61F838E30</keyObject>
+<referredKeyID>CD006B40-03BC-89DC-E69C-4FF61F838E30</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>_Order_Id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

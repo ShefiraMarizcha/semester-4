@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="382E47A3-9F3E-0619-D876-CF818C8B0120" name="TEAM">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-06-07 10:16:07 UTC</createdTime>
+<ownerDesignName>dfo_2_3_1</ownerDesignName>
+<engineerTo>
+<item key="5F2CD04C-8D4A-2F50-0D46-D64FE477A2CD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="team_id" id="DA095F8C-F954-52B9-89FB-E3D383E4ACA8">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-06-07 10:16:17 UTC</createdTime>
+<ownerDesignName>dfo_2_3_1</ownerDesignName>
+<engineerTo>
+<item key="5F2CD04C-8D4A-2F50-0D46-D64FE477A2CD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="team_name" id="1792DA47-7FFD-64B3-B800-2F24EE7C05EB">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-06-07 10:16:37 UTC</createdTime>
+<ownerDesignName>dfo_2_3_1</ownerDesignName>
+<engineerTo>
+<item key="5F2CD04C-8D4A-2F50-0D46-D64FE477A2CD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="number_player" id="778C7F9C-5D29-9E5D-43DF-52D953E58529">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-06-07 10:17:21 UTC</createdTime>
+<ownerDesignName>dfo_2_3_1</ownerDesignName>
+<engineerTo>
+<item key="5F2CD04C-8D4A-2F50-0D46-D64FE477A2CD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="coach_name" id="5FEFCCD8-D8C5-2981-B404-EED7E204BE4C">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-06-07 10:18:43 UTC</createdTime>
+<ownerDesignName>dfo_2_3_1</ownerDesignName>
+<engineerTo>
+<item key="5F2CD04C-8D4A-2F50-0D46-D64FE477A2CD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E0F1E674-9B9B-8B41-CBFB-38547CDBD702" name="TEAM PK">
+<createdBy>WINDOWS 11</createdBy>
+<createdTime>2025-06-07 10:16:35 UTC</createdTime>
+<ownerDesignName>dfo_2_3_1</ownerDesignName>
+<engineerTo>
+<item key="5F2CD04C-8D4A-2F50-0D46-D64FE477A2CD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DA095F8C-F954-52B9-89FB-E3D383E4ACA8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
